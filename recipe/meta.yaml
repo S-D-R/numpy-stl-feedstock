@@ -35,7 +35,6 @@ requirements:
     - pytest-runner
   run:
     - python
-    - {{ pin_compatible('numpy') }}
     - python-utils
     - enum34  # [py2k]
 
